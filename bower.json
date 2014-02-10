@@ -1,0 +1,10 @@
+{
+  "name": "responsive-carousel-multiple",
+  "version": "0.2.0",
+  "main": "src/responsive-carousel.multiple.js",
+  "author": "Ron. Adams",
+  "dependencies": {
+    "jquery": "~1.8.1",
+    "filementgroup-responsive-carousel" : "0.2.0"
+  }
+}
