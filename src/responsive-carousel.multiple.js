@@ -14,14 +14,14 @@
             m_goTo: function( num ){
                 if( num === '+1' ) { // next
                     // move first child after the last
-                    $( '.carousel-item' )
+                    $( this ).find( '.carousel-item' )
                         .last()
-                        .after( $('.carousel-item').first() );
+                        .after( $( this ).find( '.carousel-item' ).first() );
                 }
                 if( num === '-1' ) { // prev
                     // move last child before the first
-                    var lastChild = $( '.carousel-item' ).last(),
-                        firstChild = $( '.carousel-item' ).first();
+                    var lastChild = $( this ).find( '.carousel-item' ).last(),
+                        firstChild = $( this ).find( '.carousel-item' ).first();
                     $( firstChild ).before( $( lastChild ) );
                 }
             },
@@ -65,4 +65,4 @@
         $( this )[ pluginName ]( "_initMultiple" );
     } );
 
-}(jQuery));
+}( jQuery ));
