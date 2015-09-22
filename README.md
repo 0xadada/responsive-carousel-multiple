@@ -40,11 +40,11 @@ Check out the `test/functional/` directory for demo (requires dependencies insta
 
 ## Authors
 
-* [Ron. Adams](https://github.com/ronaldjadams) - [@ronaldjadams](http://twitter.com/ronaldjadams)
+* [Ron. A](https://github.com/0xadada) - [@0xadada](http://twitter.com/0xadada)
 * Created at [Nara Logics](http://nara.me/)
 
 ## License
 
-Copyright 2014 Ron. Adams
+Copyright 2014 Ron. A
 
 Licensed under the MIT License
